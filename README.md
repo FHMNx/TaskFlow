@@ -1,93 +1,96 @@
-<<<<<<< HEAD
-# Welcome to your Expo app 👋
+# TaskFlow Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A full-stack cross-platform Task Management application built using:
 
-## Get started
+- React Native (Expo + TypeScript)
+- Java SE 17
+- Hibernate ORM
+- MySQL
+- Embedded Apache Tomcat
+- Jersey (JAX-RS)
 
-1. Install dependencies
+Developed for **Handheld Device Programming I – Cross-Platform Mobile Application Development Assessment**  
+Java Institute for Advanced Technology.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+##  Application Overview
 
-   ```bash
-   npx expo start
-   ```
+TaskFlow Mobile allows users to:
 
-In the output, you'll find options to open the app in a
+- Create tasks
+- View all tasks
+- Update existing tasks
+- Delete tasks
+- Toggle between Light and Dark themes (AsyncStorage)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+The application demonstrates full-stack integration between a React Native mobile app and a Java backend without using Spring Boot.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+##  System Architecture
+React Native (Expo)
+│
+▼
+Axios HTTP Requests
+│
+▼
+Embedded Tomcat + Jersey (REST API)
+│
+▼
+Hibernate ORM
+│
+▼
+MySQL Database
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Features
 
-## Learn more
+- Full CRUD operations
+- REST API integration
+- Persistent MySQL database
+- AsyncStorage theme persistence
+- Clean UI using React Native built-in components
+- Tab navigation (Expo Router)
+- TypeScript-based frontend
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-=======
-# TaskFlow 
-
-A full-stack task management application built with React Native and Java, featuring a clean interface and robust backend architecture.
-
-## Overview
-
-TaskFlow is a modern todo list application designed to help users manage their daily tasks efficiently. The application features a cross-platform mobile frontend built with React Native and a robust Java backend powered by Hibernate ORM and MySQL database.
-
-##  Features
-
--  **CRUD Operations** - Create, read, update, and delete tasks seamlessly
--  **Theme Support** - Toggle between light and dark modes
--  **Cross-Platform** - Runs on both iOS and Android devices
--  **Persistent Storage** - Data stored securely in MySQL database
--  **Real-time Sync** - Instant synchronization between frontend and backend
--  **Clean UI/UX** - Intuitive and user-friendly interface
-
-## Tech Stack
+##  Tech Stack
 
 ### Frontend
-- **React Native** - Cross-platform mobile framework
-- **Expo Router** - File-based routing for React Native
-- **TypeScript** - Type-safe development
-- **Axios** - HTTP client for API requests
-- **AsyncStorage** - Local theme preference storage
+- React Native (Expo)
+- Expo Router
+- TypeScript
+- Axios
+- AsyncStorage
 
 ### Backend
-- **Java SE 17** - Core programming language
-- **Hibernate ORM 7.2.1** - Object-relational mapping
-- **MySQL 8.0** - Relational database
-- **Javalin 6.1.3** - Lightweight web framework
-- **Gson** - JSON serialization/deserialization
-- **Maven** - Dependency management
+- Java SE 17
+- Embedded Apache Tomcat
+- Jersey (JAX-RS)
+- Hibernate ORM
+- MySQL
+- Maven
+
+---
+
+##  Project Structure
+TaskFlow/
+│
+├── app/ → React Native frontend
+│
+└── backend/
+└── TaskFlow-B/ → Java backend project
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Author - Fahman
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+![Home-Dark](https://github.com/user-attachments/assets/c31ff95c-27ef-448a-8ff7-f0b78317a6d7)
+![Home-Light](https://github.com/user-attachments/assets/bbc72cf1-8c17-42c9-a854-b84e46120ea5)
+![List-Light](https://github.com/user-attachments/assets/867825bd-56b5-4768-83d3-cffe1ed5f520)
+![Form-Light](https://github.com/user-attachments/assets/deed340b-1eea-44f6-a0b1-3e118c4625c9)
+![settings-Dark](https://github.com/user-attachments/assets/710b6d36-3a80-4c6a-8db5-d1f478ca8192)
 
 
-##  Author
-  **Fahman**
-
-  <img width="897" height="1814" alt="iPhone-14-Plus-localhost" src="https://github.com/user-attachments/assets/48515314-3e7d-4684-9040-8b365a73cce6" />
-
->>>>>>> 39ce799dec554237fbc04c235d101bdc6de81b3d
