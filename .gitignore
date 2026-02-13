@@ -41,3 +41,17 @@ app-example
 # generated native folders
 /ios
 /android
+
+# ===== SECURITY =====
+
+# All environment files
+.env
+.env.*
+!.env.example
+
+# API config (if you ever create one)
+config.ts
+api-config.ts
+
+# Sensitive local files
+*.log
