@@ -35,10 +35,3 @@ TaskFlow is a modern todo list application designed to help users manage their d
 
 ##  Author
   **Fahman**
-
-
-For support, email your-email@example.com or open an issue in the repository.
-
----
-
-⭐ If you found this project helpful, please give it a star!
